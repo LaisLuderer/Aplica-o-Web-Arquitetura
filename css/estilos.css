@@ -1,0 +1,86 @@
+#painel-sobre{
+    margin-top: 20px;
+}
+
+html, 
+body {
+    height: 100%;
+}
+
+header {
+    background-image: url(../img/castelo.jpg);
+    background-size: cover;
+    background-position:top center; /*em relação ao eixo Y=top - eixo X=center*/
+    height: 100%;
+    position: relative;
+
+}
+
+header h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.topcasafina-banner {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); /*ultimo campo relacionado a opacidade*/
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-40%, -40%);
+    transition: transform .3s;
+}
+
+.titulo-depoimento {
+    background-color: #0275D8;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #FFF;
+    margin-bottom: 0;/*sobrescrevendo o bootstrap*/
+    font-size: 24px;
+}
+
+.grupo-radio {
+    width: 50%;
+    display: inline-block; /*display block ocupa 100% da pag e o inline-block ocupa a metade dessa pagina*/
+}
+
+.contato-select {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer {
+    background-color: #333 ;
+    color: #fff;
+    padding: 1em;
+    margin-top: 10px;
+}
+/*RESPONSIVIDADE DAS TELAS*/
+@media(min-width: 768px) { /*tela tablet projetos lado a lado*/
+    .projetos-responsivo {
+    width: 50%;
+    float: left;
+    }
+}
+#painel-sobre {
+    margin-top: 0;
+}
+
+@media(in-width:992px) {
+    .topCasaFina-banner {
+    left: 0;
+    transform: translate(0, -80%);
+    width: 50%;
+    }
+}
+
+.topCasaFina-bannerWrapper {
+    position: relative;
+    height: 100%;
+}
