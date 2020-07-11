@@ -1,5 +1,3 @@
-[22:10, 10/07/2020] Jão Uai: # *Aplicação Web - Tema: Arquitetura*
-
 ## Ferramentas Front-End utilizados:
   - BootStrap
   - CSS
