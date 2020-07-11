@@ -1,5 +1,6 @@
 ## Ferramentas Front-End utilizados:
   - BootStrap
+  - HTML
   - CSS
   - JavaScript
   - JQuery
