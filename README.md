@@ -19,7 +19,7 @@
 ## Elementos da Interface
   
   - Responsividade.
-  css
+  ```css
 @media(min-width: 768px) { /*tela tablet projetos lado a lado*/
     .projetos-responsivo {
     width: 50%;
@@ -43,11 +43,11 @@
     height: 100%;
 }
 
-
+```
 - Animações
 Como por exemplo o efeito Carroussel com uso de JavaScript e BootStrap.
 
-css
+```html
  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -96,5 +96,5 @@ css
       </a>
 
     </div>
-
+```
 - Redirecionamento de Conteúdo - Foi feito em só uma página com intuito de facilitar a navegação, devido isso foi feito com que as opções do cabeçalho levassem o usuário à área específica da área na mesma página.
